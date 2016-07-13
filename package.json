@@ -8,6 +8,10 @@
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "postinstall": "typings install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalari/angular2-webpack-guide.git"
+  },
   "license": "MIT",
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
